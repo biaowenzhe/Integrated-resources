@@ -1,0 +1,38 @@
+[ 信物 : code.sh ]
+Build 20211208-001-test
+
+1、拷贝到 /ql/config/
+2、先运行 code。
+
+说明：
+1、改进 code.sh 的 node 依赖检查和修复代码。功能默认关闭，有需要自行打开。
+2、code.sh (http://xn--2code-1t3d.sh/) 调整将基础 js 依赖(ccwav仓库的 ql.js sendNotify.js 和 NobyDa 仓库的 JD_DailyBonus.js。可自定义下载链接和开关)下载到 /ql/config/ 备用。
+
+[ 信物 : task_before.sh ]
+Build 20211208-001-test
+
+1、拷贝到 /ql/config/
+2、先运行 code。
+
+说明：
+1、task_before和config_sample增加基础js依赖的提前置换。
+
+[ 信物 : config_sample.sh ]
+Build 20211207-002-test
+
+1、拷贝到 /ql/config/
+2、先运行 code。
+
+说明：
+1、task_before和config_sample增加基础js依赖的提前置换。
+特别注意：提前置换js依赖的jdCookie变量必须设置，否则会影响互助变量提交。
+
+[ 信物 : jdCookie.js ]
+Mod 20211207-001
+
+基于风之凌殇二次魔改jdCookie，负责互助码到互助变量的整理
+
+1、拷贝到 /ql/config/
+2、先运行 code。
+
+必须存放好路径并设定config中相关变量，否则影响互助变量提交

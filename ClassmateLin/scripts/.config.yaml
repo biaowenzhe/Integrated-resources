@@ -1,0 +1,54 @@
+# conf/config.yaml
+# 默认为True, 控制台打印消息
+debug: true
+
+# 日志保留天数
+log_days: 3
+
+# 指定进程数
+process_num: 4
+
+# 京东COOKIES
+jd_cookies:
+  - pt_pin=;pt_key=;
+
+# 东东农场是否使用水滴换豆卡, 100水滴换20京豆
+jd_farm_bean_card: false
+
+# 东东农场每天保留多少水滴, 用于明天的十次浇水任务
+jd_farm_retain_water: 80
+
+# 消息通知
+notify:
+  # TG机器人Token
+  tg_bot_token: null
+  # TG用户ID
+  tg_user_id: null
+  # TG代理
+  tg_bot_api: null
+  # push+ token: https://pushplus.hxtrip.com/
+  push_plus_token: null
+
+  # push+ group 一对多推送才需要次配置
+  push_plus_group: null
+
+  # 依次填上corpid的值,corpsecret的值,touser的值,agentid,media_id的值，注意用,号隔开。
+  qywx_am: null
+
+  #  server酱通知key
+  server_send_key: null
+# 在此列表中的脚本, 将不会加入到定时任务中, 如需立即生效, 请手动执行命令: docker-entrypoint
+crontab_exclude_scripts:
+  - example.py
+
+# 京东免费试用商品过滤关键字
+jd_free_trials_filter_keywords: '孕妇@老人@中年@幼儿园@教程@英语@辅导@培训@孩子@小学@成人用品@套套@情趣@自慰@阳具@飞机杯@男士用品@女士用品@内衣@高潮@避孕@乳腺@肛塞@肛门@宝宝@玩具@芭比@娃娃@男用@老人@女用@神油@足力健@老人@宠物@饲料@磨脚@跳蛋@阴道@阴部@龟头'
+
+# 免费试用商品最低价格
+jd_free_trials_min_price: 50
+
+# 免费试用商品最大数量
+jd_free_trials_max_count: 5
+
+# 面试试用商品分类
+jd_free_trials_categories: 服饰鞋包,闪电试,手机数码,钟表奢品,个人护理,食品饮料,家用电器,电脑办公,美妆护肤
