@@ -5,7 +5,7 @@
 
 #喜马拉雅VIP
 
-^http[s]?:\/\/((.+ximalaya.+)|(.+xmcdn.+))mobile-play.+$ url script-request-header https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/xmly.js
+^http[s]?:\/\/((.+ximalaya.+)|(.+xmcdn.+))mobile-play.+$ url script-request-header https://raw.githubusercontent.com/biaowenzhe/Integrated-resources/main/pj/xmly.js
 
 [mitm]
 hostname = *ximalaya*
