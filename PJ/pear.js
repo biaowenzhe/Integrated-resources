@@ -6,7 +6,7 @@
 下载地址=https://www.pearor.live
 
 #雪梨🍐视频🚗
-^http[s]?:\/\/.+(movie\/WatchMovieNew|Account\/CheckVip|movie/DetailInfo|/account/IndexDetail|/cartoon/DownLoadCartoon|/cartoon/LookPhoto|/movie/DetailInfo|PictureSet/LookPhoto|/account/Milk|account/suport|account/IsVip).*$ url script-response-body https://raw.githubusercontent.com/biaowenzhe/Integrated-resources/main/pj/pear.js
+^http[s]?:\/\/.+(movie\/WatchMovieNew|Account\/CheckVip|movie/DetailInfo|/account/IndexDetail|/cartoon/DownLoadCartoon|/cartoon/LookPhoto|/movie/DetailInfo|PictureSet/LookPhoto|/account/Milk|account/suport|account/IsVip).*$ url script-response-body https://raw.githubusercontent.com/biaowenzhe/Integrated-resources/main/PJ/pear.js
 
 QX MITM = m.*c*
 
